@@ -26,3 +26,11 @@ The project follows the standard D365 F&O package structure for seamless deploym
 ├───AxReport            # SSRS Report designs and RDP classes
 ├───AxSecurityPrivilege # Granular security roles and permissions
 └───AxTable             # Database schema and table-level methods
+
+## 📝 How it Works
+1.  **Define Tools:** Users add tools to the system and set their initial status.
+2.  **Loan Process:** When a tool is assigned to a worker, the system checks the tool's status via X++ code.
+3.  **Validation:** If the tool is "Damaged", the system triggers a `checkFailed` warning and prevents the transaction.
+
+## 👤 Author
+**Ahmed Fathy Hasona** *Full-Stack Developer & D365 F&O Technical Consultant Trainee*
