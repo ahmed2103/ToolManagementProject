@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AxMenu xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="Microsoft.Dynamics.AX.Metadata.V1">
+	<Name>ToolsMenu</Name>
+	<Label>Tool Management</Label>
+	<Elements>
+		<AxMenuElement xmlns=""
+			i:type="AxMenuElementSubMenu">
+			<Name>Submenu1</Name>
+			<Label>Tools</Label>
+			<Elements>
+				<AxMenuElement xmlns=""
+					i:type="AxMenuElementMenuItem">
+					<Name>MenuItemReference1</Name>
+					<MenuItemName>ToolLoansMenuItem</MenuItemName>
+				</AxMenuElement>
+				<AxMenuElement xmlns=""
+					i:type="AxMenuElementMenuItem">
+					<Name>MenuItemReference2</Name>
+					<MenuItemName>ToolsMenuItem</MenuItemName>
+				</AxMenuElement>
+				<AxMenuElement xmlns=""
+					i:type="AxMenuElementMenuItem">
+					<Name>ToolReturnSSRSReport</Name>
+					<MenuItemName>ToolReturnSSRSReport</MenuItemName>
+					<MenuItemType>Output</MenuItemType>
+				</AxMenuElement>
+			</Elements>
+		</AxMenuElement>
+	</Elements>
+</AxMenu>
